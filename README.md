@@ -13,10 +13,10 @@ To install Koneo, you need to install Expo on your phone and clone the repositor
 Assuming that you have Node 8+ installed, you can use npm to install the Expo CLI command line utility:
 
     npm install -g expo-cli
-Go in the koneo repository and write:
+Go in the koneo repository and download the node module:
 
     yarn
-Download the node module
+And run the application
 
     yarn start
 After Scan the Qr code on your computer and Enjoy the app.
