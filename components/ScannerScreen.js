@@ -98,7 +98,7 @@ export default class ScannerScreen extends React.Component {
           <View style={{display: "flex", flexDirection: "row", alignItems: "center", marginBottom: 10}}>
             <View style={{display: "flex", flexDirection: "column"}}>
               <Text style={styles.productInfo}>{product.name}</Text>
-              <Text style={styles.productInfoDescription}>{product.quantity}</Text>
+              <Text style={styles.productInfoDescription}>{product.description}</Text>
             </View>
             <View style={{}}>
               <Text style={styles.productInfoPrice}>{product.price} €</Text>
